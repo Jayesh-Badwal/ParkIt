@@ -9,12 +9,14 @@ Instructions on how to use the app.
 If you are a parking manager-
   1.	On the first login screen click on the ‘Parking Manager’ button. 
   2.	If you already have an account proceed to step 3. Otherwise, click on ‘Sign up’, click on ‘Parking Manager’ and do the following steps- 
+    
     a.	Enter your garage’s name, email, and password. Enter the password again to confirm and click ‘Register’.
     b.	Enter your phone number, the address of the garage, the total number of parking slots available, the opening and closing times and the rate of the parking and click      ‘Proceed’. 
     c.	Enter your bank details and click ‘Register’. 
     d.	You will receive an OTP by SMS. Enter the OTP and click ‘Verify’ in order to create your account. 
   3.	 Enter your phone number and password and click ‘Login’. 
   4.	The screen will have a list of all the slots available in your garage. Depending on the slot’s status at the current time, you will see-
+    
     a.	Available: If there is no booking. 
     b.	Booked: If there is a booking but the user has not yet occupied the slot.
     c.	Currently Occupied: If there is a booking and the user has occupied the slot.
@@ -26,11 +28,13 @@ If you are a parking manager-
 If you are a user-
   1.	On the first login screen click on the ‘User’ button. 
   2.	If you already have an account proceed to step 3. Otherwise, click on ‘Sign up’, click on ‘User’ and do the following steps-
+    
     a.	Enter your garage’s name, email, and password. Enter the password again to confirm and click’ Register’.
     b.	 Enter your address, phone number, car’s registration number and its model and click ‘Proceed’. 
     c.	You will receive an OTP by SMS. Enter the OTP and click ‘Verify’ in order to create your account. 
   3.	Enter your phone number and password and click ‘Login’. 
   4.	If you want to place a booking for a parking garage do the following steps- 
+    
     a.	Enter your source and destination and click ‘Search’. 
     b.	A list of parking garages near your destination will be shown, select the one you want to park your car at and click it. 
     c.	Enter the time you will arrive at the garage and the number of hours you wish to park and click ‘Continue’.  If the garage is not open for those particular timings a toast message will inform you. Otherwise the ‘Confirm booking page’ will be displayed. 
