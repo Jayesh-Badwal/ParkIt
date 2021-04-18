@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkingsystem">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ParkingFeedback"></activity>
+        <activity android:name=".PreviousBookings" />
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".BookingList" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Route" />
+        <activity android:name=".ConfirmSlot" />
+        <activity android:name=".TimeActivity" />
+        <activity android:name=".BookSlots" />
+        <activity android:name=".EntrySuccessful" />
+        <activity android:name=".ShowFeedback" />
+        <activity android:name=".LeaveFeedback" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".QRScanner" />
+        <activity android:name=".QRGenerator" />
+        <activity android:name=".SignUpSuccessfull" />
+        <activity android:name=".LoginAs">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetNewPassword" />
+        <activity android:name=".VerifyOtp" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".UserReg3" />
+        <activity android:name=".UserReg2" />
+        <activity android:name=".ParkingReg3" />
+        <activity android:name=".ParkingReg2" />
+        <activity android:name=".ParkingStatus" />
+        <activity
+            android:name=".UserHome"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserRegister" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".ReminderBroadcast">
+            <intent-filter>
+                <action android:name="action.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_3f5l1dNWQZueY8" />
+    </application>
+
+</manifest>
